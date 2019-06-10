@@ -1,5 +1,5 @@
 def reverse_each_word(str)
-  arr = str.to_a()
+  arr = str.split(" ")
   rev = ""
   arr.each do |item|
     rev << item.reverse
